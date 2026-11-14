@@ -1,0 +1,47 @@
+PYTHON CODING STYLE GUIDELINES (PEP 8)
+
+PEP 8 is the official style guide for Python code. It provides
+conventions that help make Python programs readable, consistent, and
+easy to maintain.
+
+1.  USE PROPER INDENTATION
+    -   Use 4 spaces for each indentation level.
+    -   Be consistent throughout your code.
+    -   Do not mix tabs and spaces.
+2.  USE MEANINGFUL NAMES
+    -   Choose descriptive names for variables and functions.
+    -   Names should clearly explain their purpose.
+    -   Avoid unclear names such as x, a, or temp when a descriptive
+        name is possible.
+3.  USE SPACES AROUND OPERATORS
+    -   Put a single space around assignment and comparison operators.
+    -   Example: total = price + tax
+4.  USE BLANK LINES BETWEEN FUNCTIONS
+    -   Separate top-level function and class definitions with two blank
+        lines.
+    -   Use blank lines inside functions when they improve readability.
+5.  USE LOWERCASE NAMES FOR VARIABLES AND FUNCTIONS
+    -   Use snake_case for variable and function names.
+    -   Example: student_name = “Mohansh”
+    -   Example: def calculate_total():
+6.  USE PASCALCASE FOR CLASSES
+    -   Capitalize the first letter of each word in a class name.
+    -   Do not use spaces or underscores between words.
+    -   Example: class StudentRecord:
+7.  KEEP LINES REASONABLY SHORT
+    -   Avoid excessively long lines.
+    -   Break long expressions into multiple lines when it improves
+        readability.
+    -   PEP 8 recommends a maximum of 79 characters for code lines.
+
+QUICK REFERENCE
+
+Variables: student_name Functions: calculate_total() Classes:
+StudentRecord Constants: MAX_ATTEMPTS Indentation: 4 spaces Code line
+limit: 79 characters (recommended)
+
+Remember: Write code not only to make it work, but also to make it easy
+for others to read and understand.
+
+For more details, refer to the official PEP 8 guide:
+https://peps.python.org/pep-0008/
